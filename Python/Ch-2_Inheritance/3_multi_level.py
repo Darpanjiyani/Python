@@ -9,7 +9,6 @@ class company:
         print(f"Company Name: {self.company_name}")
         return f"Company Name: {self.company_name}"
 
-
 class manager(company):
 
     def __init__(self, manager_name:str, company_name:str):
