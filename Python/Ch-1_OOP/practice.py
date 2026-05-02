@@ -1,12 +1,11 @@
-class job():
+class sabha:
 
-    def __init__(self, title, salary):
-        self.title = title
-        self.salary = salary
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
     
-    def answer(self):
-        return f"{self.title} earns {self.salary} dollars per year."
-    
-object1 = job("Software Engineer", 100000)
+    def fun(self):
+        return f"My name is {self.name} and I am {self.age} years old."
 
-print(object1.answer())
+obj = sabha("Darpan", 24)
+print(obj.fun())

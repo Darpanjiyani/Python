@@ -19,7 +19,6 @@ class MyClass:
     def func3(self):
         print(f"Hello Globe, {self._dyn3}")
 
-
 obj = MyClass("abc","def","xyz")
 obj.dyn1 = "pqr"
 print(obj.dyn1)
