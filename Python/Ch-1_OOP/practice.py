@@ -1,11 +1,18 @@
-class sabha:
+class morning:
 
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+    var1 = "Hello Everyone"
+
+    def __init__(self, first_name, last_name):
+        self.first_name = first_name
+        self.last_name = last_name
     
-    def fun(self):
-        return f"My name is {self.name} and I am {self.age} years old."
+    def gm(self):
+        print("Good Morning!")
 
-obj = sabha("Darpan", 24)
-print(obj.fun())
+    def name(self):
+        print(f"My name is {self.first_name} and yes, I do have my last name as well, it's {self.last_name}")
+        
+obj1 = morning("Darpan", "Jiyani")
+print(obj1.var1)
+obj1.gm()
+obj1.name()
